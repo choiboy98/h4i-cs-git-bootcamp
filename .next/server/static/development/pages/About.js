@@ -88,14 +88,14 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/About.js":
+/***/ "./pages/about.js":
 /*!************************!*\
-  !*** ./pages/About.js ***!
+  !*** ./pages/about.js ***!
   \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -105,7 +105,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return About; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/danielchoi/Desktop/Hack4Impact/h4i-cs-git-bootcamp/pages/About.js";
+var _jsxFileName = "/Users/danielchoi/Desktop/Hack4Impact/h4i-cs-git-bootcamp/pages/about.js";
 
 function About() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -125,14 +125,14 @@ function About() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!******************************!*\
-  !*** multi ./pages/About.js ***!
+  !*** multi ./pages/about.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/danielchoi/Desktop/Hack4Impact/h4i-cs-git-bootcamp/pages/About.js */"./pages/About.js");
+module.exports = __webpack_require__(/*! /Users/danielchoi/Desktop/Hack4Impact/h4i-cs-git-bootcamp/pages/about.js */"./pages/about.js");
 
 
 /***/ }),
@@ -149,4 +149,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=About.js.map
+//# sourceMappingURL=about.js.map
