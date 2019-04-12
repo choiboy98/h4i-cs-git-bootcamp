@@ -9810,7 +9810,7 @@ var Page = Object(next_router__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(functi
 
 /***/ }),
 
-/***/ 3:
+/***/ 1:
 /*!**********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fpost&absolutePagePath=%2FUsers%2Fdanielchoi%2FDesktop%2FHack4Impact%2Fh4i-cs-git-bootcamp%2Fpages%2Fpost.js ***!
   \**********************************************************************************************************************************************************/
@@ -9833,5 +9833,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+},[[1,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=post.js.map
