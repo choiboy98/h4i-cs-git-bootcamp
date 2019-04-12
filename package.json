@@ -8,16 +8,16 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-markdown": "^4.0.6",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "terminal-in-react": "^4.3.1"
   },
   "scripts": {
-    "start": "NODE_ENV=production node server.js",
+    "start": "next start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "node server.js",
     "build": "next build",
-    "now-build": "next build",
-    "start": "next start"
+    "now-build": "next build"
   },
   "eslintConfig": {
     "extends": "react-app"
