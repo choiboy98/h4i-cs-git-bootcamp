@@ -21,11 +21,11 @@ export default function Blog() {
   return (
     <Layout>
       <h1>My Blog</h1>
-      <ul>
-        {getPosts().map(post => (
-          <PostLink key={post.id} post={post} />
-        ))}
-      </ul>
+        <ul>
+          {getPosts().map(post => (
+            <PostLink key={post.id} post={post} />
+          ))}
+        </ul>
       <style jsx>{`
         h1,
         a {
