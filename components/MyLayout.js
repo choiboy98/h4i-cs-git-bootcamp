@@ -8,10 +8,28 @@ const layoutStyle = {
 }
 
 const Layout = props => (
-  <div style={layoutStyle}>
+  <div id="container">
     <Header />
-    {props.children}
-    <Terminal />
+    <div id="left">
+      {props.children}
+    </div>
+    <div id="right">
+      <Terminal />
+    </div>
+    <style jsx> {`
+      #container {
+        height: 100%;
+        width: 100%;
+      }
+      #left, #right {
+        display: inline-block; 
+        *display: inline; 
+        zoom: 1; 
+        vertical-align: top;
+        width: 50%;
+      }
+    `}
+    </style>
   </div>
 )
 
